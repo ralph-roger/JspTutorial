@@ -1,19 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="UTF-8" errorPage="error.jsp"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Hier in INDEX</title>
+<title>Seite mit Fehler</title>
 </head>
-<body> 
-<h1>Index JSP</h1>
-<%
-java.util.Date  date = new java.util.Date();
-%>
-<h2>
-  Now is 
-  <%=date.toString()%>
-</h2>
+<body>
+<h1> Achtung Fehler wegen Division durch 0 <% int i = 1/0;%></h1>
+
 </body>
 </html>
