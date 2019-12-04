@@ -5,6 +5,11 @@
 <title>Jsp Include Directive</title>
 </head>
 <body>
+
+<h2>Hier der übergebene Parameter</h2>
+
+Parameter para: <b><%= request.getParameter("para") %></b>
+
  
   <%@ include file="../fragment/header.html"%>
  

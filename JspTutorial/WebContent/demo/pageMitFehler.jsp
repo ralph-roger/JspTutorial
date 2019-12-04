@@ -7,6 +7,10 @@
 <title>Seite mit Fehler</title>
 </head>
 <body>
+<h2>Hier der übergebene Parameter</h2>
+
+Parameter para: <b><%= request.getParameter("para") %></b>
+
 <h1> Achtung Fehler wegen Division durch 0 <% int i = 1/0;%></h1>
 
 </body>

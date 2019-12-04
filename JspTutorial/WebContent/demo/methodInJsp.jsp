@@ -9,6 +9,11 @@
 <title>Hier in methodInJsp</title>
 </head>
 <body>
+<h2>Hier der übergebene Parameter</h2>
+
+Parameter para: <b><%= request.getParameter("para") %></b>
+
+
 <h1>Das Ergebnis von 1 + 2 = <%=sum(1,2) %> </h1>
 
 </body>

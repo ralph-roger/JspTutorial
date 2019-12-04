@@ -8,6 +8,11 @@
 <title>Eine ERROR-Page!</title>
 </head>
 <body>
+
+<h2>Hier der übergebene Parameter</h2>
+
+Parameter para: <b><%= request.getParameter("para") %></b>
+
 <h2>Eine Error-Page</h2>
 
 <h3>Stack Trace</h3>

@@ -8,6 +8,11 @@
 <title>Insert title  in javaInHtml</title>
 </head>
 <body>
+<h2>Hier der übergebene Parameter</h2>
+
+Parameter para: <b><%= request.getParameter("para") %></b>
+
+<h2>Hier eine Random-Funktion</h2>
     <%
         Random random = new Random();
         // Returns a random number (0, 1 or 2)

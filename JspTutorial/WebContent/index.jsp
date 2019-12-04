@@ -11,9 +11,14 @@
 <%
 java.util.Date  date = new java.util.Date();
 %>
-<h2>
-  Now is 
-  <%=date.toString()%>
-</h2>
+<h2> Datum und Uhrzeit: <%=date.toString()%> </h2>
+
+<h2>Aufruf einer JSP</h2>
+
+<br><a href="demo/methodInJsp.jsp?para=test1">JSP-Aufruf : methodInJsp.jsp</a>
+<br><a href="demo/javaInHtml.jsp?para=test2">JSP-Aufruf : javaInJsp.jsp</a>
+<br><a href="demo/pageMitFehler.jsp?para=test3">JSP-Aufruf : pageMitFehler.jsp</a>
+<br><a href="demo/includeDemo.jsp?para=test4">JSP-Aufruf : includeDemo.jsp</a>
+
 </body>
 </html>
