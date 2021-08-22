@@ -11,7 +11,7 @@
 Parameter para: <b><%= request.getParameter("para") %></b>
 
  
-  <%@ include file="../fragment/header.html"%>
+  <%@ include file="./fragment/header.html"%>
  
   
   <h2>Jsp tutorial for Beginners</h2>
@@ -19,6 +19,6 @@ Parameter para: <b><%= request.getParameter("para") %></b>
   Hi! This is Jsp Tutorial...
   
  
-  <%@ include file="../fragment/footer.html"%>
+  <%@ include file="./fragment/footer.html"%>
 </body>
 </html>
